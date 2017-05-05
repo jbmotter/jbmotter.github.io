@@ -1,0 +1,134 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+* {
+font-family: open sans, sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+
+
+.banner {
+position:relative;
+width: 100%;
+margin: auto auto;
+}
+
+body {
+  width:90%;
+  margin: auto 0%;
+  color: #f7f7f2;
+  background-color: #0d0e0f;
+  padding-top: 0px;
+  
+}
+
+.buttons {
+position:relative;
+text-align:center;
+margin-left:10.5%;
+margin-right:auto;
+width:100%;
+width:auto;
+}
+
+.leftbutton {
+display:inline-block;
+opacity: 0.8;
+filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.rightbutton {
+display:inline-block;
+opacity: 0.8;
+filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.leftbutton:hover{
+  opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.rightbutton:hover{
+  opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.photo {
+margin-left:35%;
+position: relative;
+display:inline-block;
+max-width:40%;
+padding-bottom:0px;
+border:2px #F7CC22 solid;
+}
+
+img {
+position: relative;
+padding-bottom: 20px;
+}
+
+h1 {
+font-family: open sans, sans-serif;
+font-size: 35px; 
+color: #F7F7F2;
+text-align: center;
+letter-spacing: 5px;
+padding: 30px;
+}
+
+h2 {
+	color: #f6cb39;
+	margin-left: 40%;
+}
+
+h3 {
+font-family: open sans, sans-serif;
+font-size: 15px; 
+margin-left: 40%;
+color: #F7F7F2;
+}
+
+p {
+	font-family: open sans light, sans-serif;
+    text-align: justify;
+     color: #F7F7F2;
+      letter-spacing: 0px;
+       line-height: 2;
+        word-spacing: 0px;
+         font-size: 16px;
+         margin: auto 0 auto 0;
+         padding: 0 auto;
+       	   display: inline block;
+       	   padding-top: 30px;
+       	   padding-bottom: 20px;
+       	   max-width: 60%;
+       	   min-width: 30%;
+       	   clear: right;
+       	   float: left;
+    position: relative;
+    left: 25%;
+       	 
+  
+}
+       	   
+hr {
+clear: left;
+   border: 1px solid #F7CC22;
+   margin-bottom: 50px;
+   margin-left: 70px;
+   }
+
+.twitter-follow-button{
+clear:left;
+margin-left: 40%;
+}
+
+footer {
+position: absolute;
+left: 20px;
+bottom: -1;
+clear: left;
+}
+
